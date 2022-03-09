@@ -1,0 +1,95 @@
+﻿'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Users\Rob\Downloads\template-sfml2.5.1-win-ping-pong\x64\Debug Dynamic\template-sfml2.5.1-win-ping-pong.exe'. Symbols loaded.
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\ntdll.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\kernel32.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\KernelBase.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Users\Rob\Downloads\template-sfml2.5.1-win-ping-pong\x64\Debug Dynamic\sfml-audio-d-2.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Users\Rob\Downloads\template-sfml2.5.1-win-ping-pong\x64\Debug Dynamic\sfml-graphics-d-2.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Users\Rob\Downloads\template-sfml2.5.1-win-ping-pong\x64\Debug Dynamic\sfml-window-d-2.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\gdi32.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\win32u.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\gdi32full.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\msvcp_win.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\ucrtbase.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\user32.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\advapi32.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\msvcrt.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\sechost.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\rpcrt4.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Users\Rob\Downloads\template-sfml2.5.1-win-ping-pong\x64\Debug Dynamic\sfml-system-d-2.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\msvcp140d.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\vcruntime140d.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\vcruntime140_1d.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\ucrtbased.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Users\Rob\Downloads\template-sfml2.5.1-win-ping-pong\x64\Debug Dynamic\openal32.dll'. Module was built without symbols.
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\shell32.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\ole32.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\combase.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\opengl32.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\winmm.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\glu32.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\DXCore.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\imm32.dll'. 
+The thread 0x48f4 has exited with code 0 (0x0).
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\uxtheme.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\msctf.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\kernel.appcore.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\bcryptprimitives.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\clbcatq.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\AppXDeploymentClient.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\urlmon.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\iertutil.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\srvcli.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\netutils.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Unloaded 'C:\Windows\System32\iertutil.dll'
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Unloaded 'C:\Windows\System32\srvcli.dll'
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Unloaded 'C:\Windows\System32\netutils.dll'
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Unloaded 'C:\Windows\System32\urlmon.dll'
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Unloaded 'C:\Windows\System32\AppXDeploymentClient.dll'
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_3b12ac0f95b18b9d\nvoglv64.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\setupapi.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\oleaut32.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\version.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\wtsapi32.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\cryptbase.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\msasn1.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\cryptnet.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\crypt32.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\drvstore.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\devobj.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\cfgmgr32.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\cfgmgr32.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\cfgmgr32.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Unloaded 'C:\Windows\System32\cfgmgr32.dll'
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Unloaded 'C:\Windows\System32\cfgmgr32.dll'
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\wldp.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\wintrust.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\ntmarta.dll'. 
+The thread 0x49c4 has exited with code 0 (0x0).
+The thread 0x49c8 has exited with code 0 (0x0).
+The thread 0x49cc has exited with code 0 (0x0).
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\windows.storage.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\WinTypes.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\SHCore.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\shlwapi.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\nvspcap64.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\profapi.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\dwmapi.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\powrprof.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\umpdc.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\winsta.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\dinput8.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\InputHost.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\CoreMessaging.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\hid.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\TextInputFramework.dll'. 
+'template-sfml2.5.1-win-ping-pong.exe' (Win32): Loaded 'C:\Windows\System32\CoreUIComponents.dll'. 
+The thread 0x49a4 has exited with code 0 (0x0).
+The thread 0x49a8 has exited with code 0 (0x0).
+The thread 0x49bc has exited with code 0 (0x0).
+The thread 0x4a18 has exited with code 0 (0x0).
+The thread 0x4a14 has exited with code 0 (0x0).
+The thread 0x4a08 has exited with code 0 (0x0).
+The thread 0x49c0 has exited with code 0 (0x0).
+The thread 0x4a10 has exited with code 0 (0x0).
+The thread 0x49d4 has exited with code 0 (0x0).
+The program '[18648] template-sfml2.5.1-win-ping-pong.exe' has exited with code 0 (0x0).
