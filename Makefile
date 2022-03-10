@@ -1,4 +1,4 @@
-SFML_INCLUDE = -I include
+SFML_INCLUDE = -I EXTLIBS
 SFML_FRAMEWORKS = -F/Library/Frameworks
 
 LIBS=-framework sfml-window -framework sfml-graphics -framework sfml-system
