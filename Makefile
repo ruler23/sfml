@@ -6,5 +6,8 @@ CXX = g++
 CXXFLAGS = -std=c++11
 
 all:
-	$(CXX) $(CXXFLAGS) $(SFML_FRAMEWORKS) $(SFML_INCLUDE) $(LIBS) main.cpp -o main
+	$(CXX) $(CXXFLAGS) $(SFML_FRAMEWORKS) $(SFML_INCLUDE) $(LIBS) main.cpp -o run
 
+.PHONY: clean
+clean:
+	rm run
