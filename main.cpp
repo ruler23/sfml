@@ -255,10 +255,10 @@ int main()
 
 	Character player({ 100.0f,100.0f }, character_normal);
 
-	//Hauptspeicher für NPCs
+	//Hauptspeicher fuer NPCs
 	std::vector<Character> npc;
-	std::vector<sf::Vector2f> npc_direction_vector; //Möglichkeiten: { 0.0f,0.0f } / { 1.0f,0.0f } / { 0.0f,1.0f } / { -1.0f,0.0f } / { 0.0f,-1.0f }
-	std::vector<int> npc_how_many_moves_until_direction_change;//Möglichkeiten: 1 - 10
+	std::vector<sf::Vector2f> npc_direction_vector; //Moeglichkeiten: { 0.0f,0.0f } / { 1.0f,0.0f } / { 0.0f,1.0f } / { -1.0f,0.0f } / { 0.0f,-1.0f }
+	std::vector<int> npc_how_many_moves_until_direction_change;//Moeglichkeiten: 1 - 10
 	//ENDE Hauptspeicher
 
 	float y_coord = 100.0f;
@@ -414,7 +414,7 @@ int main()
 
 		player.Draw(window);
 
-		//Koordinaten einblenden über dem Player
+		//Koordinaten einblenden ueber dem Player
 		std::string num_text = std::to_string(player.getPostion().x);
 		std::string rounded_x = num_text.substr(0, num_text.find(".") + 0);
 		std::string num_text2 = std::to_string(player.getPostion().y);
