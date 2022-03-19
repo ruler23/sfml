@@ -1,0 +1,17 @@
+name: C++ Style Checks
+
+on: push
+
+jobs:
+  clang-format:
+    name: Run clang-format
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v2
+
+      - name: Run clang-format
+        uses: DoozyX/clang-format-lint-action@v0.12
+        with:
+          extensions: 'cpp,h'
+          clangFormatVersion: 12
