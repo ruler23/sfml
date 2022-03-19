@@ -255,13 +255,17 @@ int main()
 
 	Character player({ 100.0f,100.0f }, character_normal);
 
-	//std::list<Character> npc;
+	//Hauptspeicher für NPCs
 	std::vector<Character> npc;
-
+	std::vector<sf::Vector2f> npc_direction_vector; //Möglichkeiten: { 0.0f,0.0f } / { 1.0f,0.0f } / { 0.0f,1.0f } / { -1.0f,0.0f } / { 0.0f,-1.0f }
+	std::vector<int> npc_how_many_moves_until_direction_change;//Möglichkeiten: 1 - 10
+	//ENDE Hauptspeicher
 
 	float y_coord = 100.0f;
 	float x_coord = 100.0f;
 	int i;
+
+	//Initiale Erstellung der NPCs
 	for (i = 0; i < npc_max; i++) {
 		
 		y_coord = y_coord + 10;
@@ -270,7 +274,34 @@ int main()
 		x_coord = x_coord + Zufall::random(0, 100);
 		Character fucker3({ x_coord,y_coord }, character_green);
 		npc.push_back(fucker3);
-		//npc.assign(1,fucker3);
+		//Wieviele Schritte soll der NPC in eine Richtung machen? Per Zufall ermitteln lassen.
+		npc_how_many_moves_until_direction_change.push_back(Zufall::random(0, 10));
+		//In welche Richtung soll der NPC laufen? Soll erstmal den Player verfolgen.
+
+		float npc_x = npc[i].getPostion().x;
+		float npc_y = npc[i].getPostion().y;
+		float player_x = player.getPostion().x;
+		float player_y = player.getPostion().y;
+
+		int y_oder_x = Zufall::random(0, 1);
+
+			if (y_oder_x == 1) {
+				if (player_x > npc_x) {
+					npc_direction_vector.push_back({ -1.0f,0.0f });
+				}
+				else {
+					npc_direction_vector.push_back({ 1.0f,0.0f });
+				}
+			}
+			else
+			{
+				if (player_y > npc_y) {
+					npc_direction_vector.push_back({ 0.0f,1.0f });
+				}
+				else {
+					npc_direction_vector.push_back({ 0.0f,-1.0f });
+				}
+			}
 
 	}
 	//Character fucker2({ 100.0f,200.0f }, character_normal);
@@ -333,11 +364,49 @@ int main()
 
 		int a;
 		for (a = 0; a < npc.size(); a++) {
-			float x = Zufall::random(-1, 1);
-			float y = Zufall::random(-1, 1);
-			sf::Vector2f richtung = {x, y};
+			/*float x = Zufall::random(-1, 1);
+			float y = Zufall::random(-1, 1);*/
+		/*	sf::Vector2f richtung = {x, y};*/
 
-			npc[a].SetDirection(richtung);
+			if (npc_how_many_moves_until_direction_change[a] > 0) {
+
+				npc_how_many_moves_until_direction_change[a]--;
+				
+			}
+			else
+			{
+
+				float npc_x = npc[a].getPostion().x;
+				float npc_y = npc[a].getPostion().y;
+				float player_x = player.getPostion().x;
+				float player_y = player.getPostion().y;
+				int y_oder_x = Zufall::random(0, 1);
+
+				if (y_oder_x == 1) {
+					if (player_x > npc_x) {
+						npc_direction_vector[a] = {1.0f,0.0f};
+					}
+					else {
+						npc_direction_vector[a] = {-1.0f,0.0f};
+					}
+				}
+				else
+				{
+					if (player_y > npc_y) {
+						npc_direction_vector[a] = {0.0f,1.0f};
+					}
+					else {
+						npc_direction_vector[a] = {0.0f,-1.0f};
+					}
+				}
+
+				//Wieviele Schritte soll der NPC in eine Richtung machen? Per Zufall ermitteln lassen.
+				npc_how_many_moves_until_direction_change[a] = Zufall::random(0, 10);
+				
+
+			}
+
+			npc[a].SetDirection(npc_direction_vector[a]);
 			npc[a].Update(dt);
 			// Draw the sprite	
 			npc[a].Draw(window);
