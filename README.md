@@ -1,12 +1,12 @@
-##Installation
+#Installation
 
-####Dependencies
+##Dependencies
 - [SFML 2.5.1]
 
-####Windows
+##Windows
 tbd
 
-####MacOS
+##MacOS
 ```sh
 make
 ./run
