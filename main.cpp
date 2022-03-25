@@ -116,8 +116,9 @@ int main()
 	// timepoint for delta time measurement
 	auto tp = std::chrono::steady_clock::now();
 
+        bool running = true;
 	// Start the game loop
-	while (window.isOpen())
+	while (running)
 	{
 		// Process events
 		sf::Event event;
@@ -141,23 +142,24 @@ int main()
 		if (sf::Keyboard::isKeyPressed(sf::Keyboard::W))
 		{
 			dir.y -= 1.0f;
-			
 		}
 		if (sf::Keyboard::isKeyPressed(sf::Keyboard::S))
 		{
 			dir.y += 1.0f;
-			
 		}
 		if (sf::Keyboard::isKeyPressed(sf::Keyboard::A))
 		{
 			dir.x -= 1.0f;
-			
 		}
 		if (sf::Keyboard::isKeyPressed(sf::Keyboard::D))
 		{
 			dir.x += 1.0f;
-			
 		}
+                if (sf::Keyboard::isKeyPressed(sf::Keyboard::Escape))
+		{
+			running = false;
+		}
+
 		player.SetDirection(dir);
 		
 		// update model
